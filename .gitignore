@@ -72,11 +72,34 @@
         }
         th {
             background-color: #4a5d23;
-            color: #ffffff; /* 見出し行は背景を緑、文字を白に */
+            color: #ffffff;
             width: 25%;
         }
         tr:nth-child(even) {
-            background-color: #faf9f6; /* 偶数行の背景色を少し変えて見やすく */
+            background-color: #faf9f6;
+        }
+
+        /* 関連リンクの装飾 */
+        .link-section {
+            background-color: #faf9f6;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 40px;
+            border: 1px solid #e1d4b6;
+        }
+        .link-section a {
+            color: #4a5d23;
+            font-size: 1.1em;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .link-section a:hover {
+            text-decoration: underline;
+        }
+        .link-section p {
+            margin: 5px 0 0 0;
+            font-size: 0.9em;
+            color: #555;
         }
     </style>
 </head>
@@ -120,6 +143,12 @@
                 <td>黄金色のお茶。フルーティーな独特の酸味と香りが楽しめる。</td>
             </tr>
         </table>
+
+        <div class="link-section">
+            <h2>関連リンク</h2>
+            <a href="https://ehm-saijo-ah.esnet.ed.jp/" target="_blank" rel="noopener noreferrer">愛媛県立西条農業高等学校</a>
+            <p>途絶えかけた石鎚黒茶の製造技術の継承や、発酵メカニズムの研究、PR活動などに学校を挙げて積極的に取り組んでいます。</p>
+        </div>
     </div>
 
 </body>
